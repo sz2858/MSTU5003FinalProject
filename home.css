@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+.navbar {
+  background: black;
+}
+.sm-cap {
+  font-variant: small-caps;
+}
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: grey;
+}
+body {
+  transition: background 1s ease;
+  background: #87CEEB;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 150px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+p {
+  color: #ecf0f1;
+  font-size: 2em;
+  text-align: center;
+}
+span {
+  clear: both;
+  font-size: 0.7em;
+  color: #bdc3c7;
+}
+a {
+  color: #c0392b;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.slide .inside {
+  display: table;
+  height: 100%;
+  width: 100%;
+  padding: 0 3em;
+}
+.slide .inside p {
+  display: table-cell;
+  width: 100%;
+  clear: both;
+  vertical-align: middle;
+  text-align: center;
+}
+h1 {
+  font-size: 100px;
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+@keyframes typewriter {
+  0%,
+  100% {
+    width: 0%;
+  }
+  30%,
+  80% {
+    width: 100%;
+  }
+}
+@keyframes caret {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.text_1 {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter;
+  display: inline-block;
+  position: relative;
+  animation-duration: 10s;
+  animation-timing-function: steps(25, end);
+  animation-iteration-count: infinite;
+  color: white;
+}
+.text_1::after {
+  content: "|";
+  position: absolute;
+  right: 0;
+  animation: caret infinite;
+  animation-duration: 1s;
+  animation-timing-function: steps(1, end);
+}
+.scroll-down {
+  width: 8%;
+  margin-left: 630px;
+  margin-top: 100px;
+}
