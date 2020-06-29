@@ -1,5 +1,5 @@
 # mstu5003final
-> [name=Shuyi Zeng] @sz2858 
+> Shuyi Zeng @sz2858 
 
 ## Demonstration
 codepen: https://codepen.io/sz2858/pen/761ccbc410fb3a083a970b0145b92ca8
