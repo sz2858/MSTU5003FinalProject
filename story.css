@@ -1,0 +1,119 @@
+html, body {
+  height:100%;
+}
+body {
+  font-size:100%;
+  margin:0;
+  background:black;
+  font-family:georgia;
+  text-align:center;
+}
+.slide{
+box-sizing: border-box;  
+  border:solid 1em #000;
+  background:#fff;
+  cursor: pointer;
+  height:100vh;
+}
+
+.slide table {
+width:90%;
+height:90%;
+  margin:auto 5%;
+  overflow:auto;
+}
+
+.slide td {
+  height:100%;
+   vertical-align:middle;
+}
+.slide div {
+ max-width:37.5vw;
+ margin:auto;
+}
+
+img {max-width:100%; height:auto;
+border:none; //max-height:25%;}
+
+h1 {
+font-weight:normal;
+font-size:3.8em;
+font-size:5vw;
+text-align:center;
+}
+p {
+font-weight:normal;
+font-size:3em;
+font-size:5vw;
+text-align:center;
+}
+
+
+.cover{background: #f2eee2;}
+
+.p1{background-image: url(https://assets.codepen.io/4557572/cafe.jpeg); background-size: cover; color:#ffe;}
+.p2{background: url(https://assets.codepen.io/4557572/a-sutherland-robot-recovered.gif); background-size: cover; color:#ffe;
+}	
+.p3{background:  #f3c36f;
+}
+.p4{background: #def;}
+.p5{background: #123; color:#ccc;}
+.p6 {background:#800; color:#ffe;}
+.p7 { background:url(https://assets.codepen.io/4557572/unnamed.png) right bottom no-repeat #F16735;
+  background-size:auto 100%; 
+color:#cfa;
+}
+.p8 {background:#222; color:#bbb;}
+.p9 {background:#FA8072; color:#333;}
+.p10 {background:#87CEEB; color:#333;}
+.p11 {background:url(https://assets.codepen.io/4557572/%E6%88%AA%E5%B1%8F2020-06-28+%E4%B8%8B%E5%8D%888.16.16.png);}
+
+
+.floating {
+  border:solid transparent;
+  border-radius: 80%;
+animation: floating 5s ease-in-out infinite;
+}
+
+button {
+	background-color: #66CDAA;
+	border: none;
+	border-radius: 30px;
+	box-shadow: 0 3px 3px 0 rgba(0,0,0,0.4),
+		0 0 2px 1px rgba(0,0,0,0.1);
+	cursor: pointer;
+	color: #fff;
+	font-size: 1rem;
+	padding: 15px 30px;
+	margin: 10px 5px 30px;
+	transition: all 0.1s ease-in;
+}
+button:hover {
+	/*background-color: red;*/
+	box-shadow: 0 6px 6px 0 rgba(0,0,0,0.25),
+		0 0 4px 2px rgba(0,0,0,0.05);
+	transform: translateY(-2px);
+}
+button:focus { outline: 0; }
+
+.btn_homepage { 
+background-color: #FFFAF0;
+	color: black;
+}
+
+.btn_homepage:hover {
+  background-color: #FAFAD2; 
+  color: grey;
+}
+
+@keyframes floating {
+  50% {transform: translateY(9px);}
+}
+
+
+@media screen and (max-width:600px) {
+  body{
+  font-size:85%;
+  }
+  p {  font-size:3.5vw; }
+}
