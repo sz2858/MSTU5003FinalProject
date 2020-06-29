@@ -13,7 +13,7 @@ https://youtu.be/1Q1Aa_9JSlM
 ## Illustration
 
 
--- The overall design is based on my former assignments on developing my own educational website: UTOPIA. This websited is aiming at fun learning. So at the very beginning, I created several animations to arouse students' interest.
+-- The overall design is based on my former assignments on developing my own educational website: UTOPIA. This website is aiming at fun learning. So at the very beginning, I created several animations to arouse students' interest.
 
 -- The whole learning aims to provide children a more fun experience in computer programming. By leading students to explore the info courses, students can use the slides to learn the first lesson: some basics about coding. 
 
