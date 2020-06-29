@@ -1,4 +1,4 @@
-# mstu5003final
+# MSTU5003final
 > Shuyi Zeng @sz2858 
 
 ## Demonstration
