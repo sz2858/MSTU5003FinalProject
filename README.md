@@ -5,7 +5,7 @@
 codepen: https://codepen.io/sz2858/pen/761ccbc410fb3a083a970b0145b92ca8
 
 github:
-https://sz2858.github.io/mstu5003final/
+https://sz2858.github.io/mstu5003finalproject/
 
 YouTube:
 https://youtu.be/1Q1Aa_9JSlM
