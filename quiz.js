@@ -102,11 +102,7 @@ var QuizUI = {
 	}
 };
 
-// Hover effect - move button down
-//var hoverBtn = document.getElementByTagName('button');
-//hoverBtn.onmouseover = function() {
-//	this.style['margin-top'] = '25px';
-//}
+
 
 // CREATE QUESTIONS
 var questions = [
